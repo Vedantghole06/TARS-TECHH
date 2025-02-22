@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext";
-import { ProductsAdmin } from "./products-admin/products-admin";
-import { ContactsAdmin } from "./contacts-admin/contacts-admin";
-import { BlogsAdmin } from "./blogs-admin/blogs-admin";
-import { CasesAdmin } from "./cases-admin/cases-admin";
+import { ProductsAdmin } from "./products-admin/ProductsAdmin";
+import { ContactsAdmin } from "./contacts-admin/ContactAdmin";
+import { BlogsAdmin } from "./blogs-admin/BlogsAdmin";
+import { CasesAdmin } from "./cases-admin/CasesAdmin";
 
 const AdminPanel = () => {
   const [activeTab, setActiveTab] = useState("products");

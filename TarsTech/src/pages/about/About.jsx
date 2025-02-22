@@ -160,13 +160,13 @@ const About = () => {
       id: 1,
       name: 'Sumedh Boudh',
       role: 'Founder',
-      imageUrl: '/aboutimg1.svg'
+      imageUrl: '/sumedh-sir.png'
     },
     {
       id: 2,
       name: 'Shrutika Tirpude',
       role: 'Co Founder',
-      imageUrl: '/aboutimg1.svg'
+      imageUrl: '/shrutika-mam.png'
     }
   ]
 
@@ -176,52 +176,52 @@ const About = () => {
 
   const team = [
     {
-      image: "/aboutimg1.svg",
+      image: "/naitik-sir.jpg",
       name: "Naitik Rangari",
       role: "Cheif Administration Officer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/kshitij.png",
       name: "Kshitij Meshram",
       role: "Team Leader"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/atharva.png",
       name: "Atharva Rajkondawar",
       role: "Project Manager"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/amogh.png",
       name: "Amogh Ramteke",
       role: "Operation Head"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/vedant.png",
       name: "Vedant Ghole",
       role: "Full Stack Developer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/vijay.png",
       name: "Vijay Pawar",
       role: "WordPress Developer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/nitesh.png",
       name: "Nitesh Tiwari",
       role: "Full Stack Developer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/nikhil.png",
       name: "Nikhil Bawane",
       role: "UI/UX Designer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/shravan.png",
       name: "Shravan Meshram",
       role: "AI/ML Developer"
     },
     {
-      image: "/aboutimg1.svg",
+      image: "/dhanesh.png",
       name: "Dhanesh Mate",
       role: "App Developer"
     }

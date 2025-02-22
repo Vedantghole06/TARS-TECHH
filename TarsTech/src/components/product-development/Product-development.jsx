@@ -34,38 +34,38 @@ const ProductDevelopment = () => {
     const technologies = [
         {
             name: "Angular",
-            imageSrc: "/placeholder.svg?height=80&width=80",
+            imageSrc: "/angular.png",
             alt: "Angular Logo"
         },
         {
             name: "React",
-            imageSrc: "/placeholder.svg?height=80&width=80",
+            imageSrc: "/react.png",
             alt: "React Logo"
         },
         {
             name: "Vue",
-            imageSrc: "/placeholder.svg?height=80&width=80",
+            imageSrc: "/vue.png",
             alt: "Vue.js Logo"
         },
         {
             name: "Node.js",
-            imageSrc: "/placeholder.svg?height=80&width=80",
+            imageSrc: "/nodejs.png",
             alt: "Node.js Logo"
         },
         {
             name: "Python",
-            imageSrc: "/placeholder.svg?height=80&width=80",
+            imageSrc: "/python.png",
             alt: "Python Logo"
         },
         {
-            name: "Swift",
-            imageSrc: "/placeholder.svg?height=80&width=80",
-            alt: "Swift Logo"
+            name: "React Native",
+            imageSrc: "/react-native.png",
+            alt: "React Native Logo"
         },
         {
-            name: "Ruby",
-            imageSrc: "/placeholder.svg?height=80&width=80",
-            alt: "Ruby Logo"
+            name: "Flutter",
+            imageSrc: "/flutter.png",
+            alt: "Flutter Logo"
         }
     ];
 
@@ -173,8 +173,9 @@ const ProductDevelopment = () => {
                                 <img
                                     src={tech.imageSrc}
                                     alt={tech.alt}
-                                    className="w-16 h-16 object-contain filter grayscale"
+                                    className="w-16 h-16 object-contain"
                                 />
+                                <div>{tech.name}</div>
                             </div>
                         ))}
                     </div>
